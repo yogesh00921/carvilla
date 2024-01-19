@@ -1,5 +1,8 @@
 /* Responsive  */
 @media screen and (max-width:1024px) {
+    .top{
+        width: 4%;
+    }
     .header nav ul li{
         padding-right: 18px;
     }
@@ -27,6 +30,9 @@
 }
 
 @media screen and (max-width:1023px) {
+    .top{
+        width: 5%;
+    }
     .header nav ul li {
         padding-right: 8px;
         font-size: 0.85rem;
@@ -83,6 +89,12 @@
 }
 
 @media screen and (max-width:767px) {
+    .top{
+        border-radius: 27px;
+        padding: 10px 0px;
+        width: 12%;
+
+    }
     nav ul{
         display: none;
     }
