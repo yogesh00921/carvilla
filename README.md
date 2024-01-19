@@ -2,7 +2,6 @@ Welcome to the Car Service and Specifications Website! This frontend project all
 
 ## Features
 
-- **Car Service:** Schedule and manage car services online.
 - **Car Specifications:** Explore detailed specifications of newly launched cars.
 - **Responsive Design:** The website is designed to work seamlessly on various devices, including desktops, tablets, and smartphones.
 
