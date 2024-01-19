@@ -1,0 +1,124 @@
+/* Responsive  */
+@media screen and (max-width:1024px) {
+    .header nav ul li{
+        padding-right: 18px;
+    }
+    .hero-content{
+        left: 16px;
+    }
+    .hero-content h1{
+        font-size: 2.6rem;
+    }
+    .icon{
+        width: 22%;
+    }
+    .service-box h2{
+        font-size: 1.1rem;
+    }
+    .new-car-img{
+        height: 220px;
+    }
+    .foot-box4{
+        width: 30%;
+    }
+    .footer-container{
+        width:95%;
+    }  
+}
+
+@media screen and (max-width:1023px) {
+    .header nav ul li {
+        padding-right: 8px;
+        font-size: 0.85rem;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content p{
+        font-size: 0.90rem;
+    }
+    .hero-content button, .btn{
+        padding: 14px 50px;
+    }
+    .icon {
+        height: 44px;
+    }
+    .service-box h2 {
+        font-size: 1rem;
+    }
+    .service-box p, .new-car-model p{
+        font-size: 0.90rem;
+        padding: 0px 10px;
+        line-height: 25px;
+    }
+    .new-car-img {
+        height: 166px;
+    }
+    .new-car-model h2 {
+        font-size: 1.2rem;
+        
+    }
+    .testimonial-container{
+        gap: 10px;
+    }
+    .test-box{
+        width: 30%;
+    }
+    .footer-container {
+        width: 90%;
+        flex-direction: column;
+    }
+    .foot-logo a{
+        font-size: 2rem;
+    }
+    .foot-box1, .foot-box2, .foot-box3, .foot-box4 {
+        width: 60%;
+    }
+    .footer-container h3{
+        font-size: 1.2rem;
+    }
+    .footer-container ul a, .foot-box4{
+        font-size: 1rem;
+    } 
+}
+
+@media screen and (max-width:767px) {
+    nav ul{
+        display: none;
+    }
+    .flex{
+        justify-content: center;
+    }
+    .hero-content{
+        left: 5px;
+    }
+    .service-section-div, .new-car-container, .features-container, .testimonial-container, .brand-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-box, .new-car-img, .new-car-model, .features-box, .test-box, .foot-box1, .foot-box2,.foot-box3,.foot-box4,.bottom-foot{
+        width: 90%;
+    }
+    .icon {
+        height: 70px;
+    }
+    .new-car-img{
+        height: 152px;
+        margin-bottom: 25px;
+    }
+    .brand-img{
+        width: 30%;
+    margin-bottom: 30px;
+    }
+    .footer-container{
+        padding-bottom: 0px;
+    }
+    .bottom-foot{
+        display: block;
+        text-align: center;
+    }
+    .bottom-foot p{
+        font-size: 0.80rem;
+    }
+
+}
